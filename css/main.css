@@ -13,30 +13,48 @@ body {
   padding: 0;
 }
 
-section{
-  margin:  0 auto;
-  padding: 2em 1em;
+section {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 1.5rem 0;
+  padding: 2em 0;
 }
 
-img {
-  width: 100%;
-  max-width:  25em;
+span {
+  display: inline-block;
 }
 
 div {
   display: inline-block;
+  padding: 0 1em 0;
+  vertical-align: top;
+  text-align: left;
+}
+
+img {
+  display: inline-block;
   width: 100%;
-  max-width:  25em;
+  max-width: 25em;
+  margin: 0 0 1.5em 0;
 }
 
 h1 {
+  margin: 0 0;
 }
 
 p {
-  display: block;
+  max-width: 25em;
+  margin: 1.5em 0;
+}
+
+button {
+  text-align: center;
 }
 
 a {
-  display: block;
-  padding: 0.4em 0.5em 0.75em;
+  display: inline-block;
+  padding: 0.4em 0.75em 0.5em 0.75em;
+  border: 3px solid #333;
+  border-radius: 6px;
 }
